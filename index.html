@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7fa95d1a39.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mi video</title>
+  </head>
+  <body>
+    <h1>MI VIDEO</h1>
+    <label for="videoFile" class="inputFile"
+      ><i class="fas fa-upload"></i>Seleccionar Video</label
+    >
+    <input
+      type="file"
+      name="file"
+      id="videoFile"
+      accept="video/*"
+      class="hiddenButtons"
+    />
+    <div id="contentVideo"></div>
+    <div class="contentActionButtons hiddenButtons">
+      <div>
+        <button class="actionButtons" id="play">
+          <i class="fas fa-play"></i>
+          Play
+        </button>
+        <button class="actionButtons" id="pause">
+          <i class="fas fa-pause"></i>
+          Pause
+        </button>
+        <button class="actionButtons" id="upVol">
+          <i class="fas fa-volume-up"></i>Subir
+        </button>
+        <button class="actionButtons" id="lowVol">
+          <i class="fas fa-volume-down"></i>Bajar
+        </button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

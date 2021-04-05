@@ -1,0 +1,64 @@
+body {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.actionButtons {
+  width: 120px;
+  height: 30px;
+  background-color: pink;
+  border: 1px solid plum;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.inputFile {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: rgb(235, 143, 173);
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid purple;
+  box-shadow: 0px 0px 20px rgb(139, 139, 139);
+}
+
+.actionButtons:focus {
+  background-color: purple;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.contentActionButtons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.fas {
+  margin-right: 5px;
+}
+
+.contentVolumenActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hiddenButtons {
+  display: none;
+}
+
+.contentVideo {
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px black;
+}
